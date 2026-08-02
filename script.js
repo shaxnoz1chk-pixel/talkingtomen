@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const telegramUsername = "your_telegram_username";
+  const telegramUsername = "munosabatlar_admin";
   const message = [
     "Assalomu alaykum!",
     "",
