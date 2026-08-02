@@ -536,6 +536,24 @@ a {
   color: #1c1c1e;
 }
 
+.part-bonus {
+  background: #fdf3d9;
+  border-left: 4px solid #e8b923;
+  border-radius: 0 10px 10px 0;
+  padding: 16px 20px;
+  margin-top: 20px;
+}
+
+.part-bonus p {
+  color: #4a4a2a;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.part-bonus strong {
+  color: var(--pink);
+}
+
 /* Sections */
 .section {
   padding: 80px 0;
