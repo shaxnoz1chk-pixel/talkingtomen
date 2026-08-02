@@ -208,19 +208,19 @@ a {
   text-align: center;
 }
 
-.book-title-1 {
+.book-cover p.book-title-1 {
   font-weight: 800;
   font-size: 1rem;
   letter-spacing: 0.02em;
   color: #1c1c1e;
 }
 
-.book-title-2 {
+.book-cover p.book-title-2 {
   font-weight: 900;
-  font-size: 1.8rem;
-  font-style: italic;
+  font-size: 2.2rem;
+  letter-spacing: 0.01em;
   color: var(--pink);
-  margin-top: -4px;
+  margin-top: -2px;
 }
 
 .lips-graphic {
@@ -233,10 +233,18 @@ a {
   height: auto;
 }
 
-.book-caption {
+.book-cover p.book-caption {
   font-size: 0.72rem;
   color: #4a4a4a;
   line-height: 1.4;
+}
+
+.book-cover p.book-author {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #1c1c1e;
+  margin-top: 10px;
 }
 
 .btn-pill {
