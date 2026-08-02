@@ -760,34 +760,6 @@ a {
   font-size: 0.95rem;
 }
 
-/* Table of contents */
-.toc-list {
-  list-style: none;
-  max-width: 700px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.toc-list li {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 18px 22px;
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
-  font-size: 1rem;
-}
-
-.toc-list li span {
-  flex-shrink: 0;
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 0.85rem;
-}
-
 /* Pricing */
 .pricing-inner {
   display: flex;
