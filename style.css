@@ -298,6 +298,15 @@ a {
   font-style: italic;
 }
 
+.story-pink-italic {
+  display: inline-block;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 800;
+  font-style: italic;
+  color: var(--pink);
+  margin-top: 6px;
+}
+
 .story-bold {
   font-weight: 700;
   color: #1c1c1e;
@@ -309,6 +318,33 @@ a {
   background: var(--pink);
   border: none;
   margin: 36px 0;
+}
+
+.story-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  margin-bottom: 8px;
+}
+
+.story-card-item p:last-child {
+  margin-bottom: 0;
+}
+
+.story-card-title {
+  font-weight: 700;
+  color: #1c1c1e;
+  margin-bottom: 10px;
+}
+
+.story-card-divider {
+  width: 40px;
+  height: 2px;
+  background: var(--pink);
+  opacity: 0.5;
+  border: none;
+  margin: 20px 0;
 }
 
 /* Sections */
