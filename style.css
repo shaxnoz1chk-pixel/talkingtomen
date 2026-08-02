@@ -795,22 +795,6 @@ a {
   font-weight: 500;
 }
 
-.price-features {
-  list-style: none;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}
-
-.price-features li::before {
-  content: "✓ ";
-  color: var(--accent);
-  font-weight: 700;
-}
-
 .price-note {
   margin-top: 14px;
   font-size: 0.85rem;
