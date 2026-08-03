@@ -52,6 +52,17 @@
                       <stop offset="60%" stop-color="#d1505c"/>
                       <stop offset="100%" stop-color="#a83947"/>
                     </linearGradient>
+                    <linearGradient id="tapeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#f8f2e6" stop-opacity="0.93"/>
+                      <stop offset="50%" stop-color="#eee3cd" stop-opacity="0.85"/>
+                      <stop offset="100%" stop-color="#d9c9a3" stop-opacity="0.92"/>
+                    </linearGradient>
+                    <clipPath id="tapeClip">
+                      <path d="M27 50 L32 51 L25 54 L33 57 L24 60 L32 63 L25 66 L30 70 L46 69 L62 70 L78 69 L94 70 L110 69 L126 70 L142 69 L158 70 L170 70 L175 66 L168 63 L176 60 L169 57 L174 54 L170 50 L158 51 L142 50 L126 51 L110 50 L94 51 L78 50 L62 51 L46 50 Z"/>
+                    </clipPath>
+                    <filter id="tapeShadow" x="-30%" y="-60%" width="160%" height="220%">
+                      <feDropShadow dx="0" dy="1.4" stdDeviation="1.1" flood-color="#3a1015" flood-opacity="0.3"/>
+                    </filter>
                   </defs>
                   <path d="M100 42 C 90 30, 78 28, 66 34 C 56 39, 46 41, 34 45 C 20 50, 12 56, 16 61 C 45 53, 75 50, 100 50 C 125 50, 155 53, 184 61 C 188 56, 180 50, 166 45 C 154 41, 144 39, 134 34 C 122 28, 110 30, 100 42 Z" fill="url(#lipTop)"/>
                   <path d="M16 61 C 12 68, 20 77, 34 82 C 55 90, 78 93, 100 93 C 122 93, 145 90, 166 82 C 180 77, 188 68, 184 61 C 155 69, 125 73, 100 73 C 75 73, 45 69, 16 61 Z" fill="url(#lipBottom)"/>
@@ -59,8 +70,16 @@
                   <ellipse cx="72" cy="36" rx="12" ry="4" fill="#fff" opacity="0.3" transform="rotate(-18 72 36)"/>
                   <ellipse cx="100" cy="80" rx="26" ry="9" fill="#fff" opacity="0.3"/>
                   <ellipse cx="60" cy="76" rx="8" ry="3" fill="#fff" opacity="0.2"/>
-                  <rect x="26" y="50" width="148" height="20" rx="2" fill="#f3ecdf" opacity="0.95" transform="rotate(-3 100 60)"/>
-                  <rect x="26" y="50" width="148" height="3" fill="#d8cfc0" opacity="0.6" transform="rotate(-3 100 60)"/>
+                  <g transform="rotate(-3 100 60)" filter="url(#tapeShadow)">
+                    <path d="M27 50 L32 51 L25 54 L33 57 L24 60 L32 63 L25 66 L30 70 L46 69 L62 70 L78 69 L94 70 L110 69 L126 70 L142 69 L158 70 L170 70 L175 66 L168 63 L176 60 L169 57 L174 54 L170 50 L158 51 L142 50 L126 51 L110 50 L94 51 L78 50 L62 51 L46 50 Z" fill="url(#tapeGrad)"/>
+                    <g clip-path="url(#tapeClip)">
+                      <rect x="24" y="49" width="154" height="21" fill="none" stroke="#c7b78f" stroke-width="0.4" opacity="0.4"/>
+                      <rect x="58" y="47" width="13" height="26" fill="#fff" opacity="0.35" transform="rotate(18 65 60)"/>
+                      <rect x="110" y="47" width="9" height="26" fill="#fff" opacity="0.22" transform="rotate(18 115 60)"/>
+                      <line x1="26" y1="55.5" x2="176" y2="55.5" stroke="#fff" stroke-width="0.6" opacity="0.25"/>
+                      <line x1="26" y1="64.5" x2="176" y2="64.5" stroke="#5c4a30" stroke-width="0.5" opacity="0.12"/>
+                    </g>
+                  </g>
                 </svg>
               </div>
               <p class="book-caption">Erkaklar sizni tushunishi, ochiq gaplashishi<br>va munosabatingiz mustahkam bo'lishi uchun<br>muloqot qilish uslubi</p>
@@ -178,6 +197,17 @@
                       <stop offset="60%" stop-color="#d1505c"/>
                       <stop offset="100%" stop-color="#a83947"/>
                     </linearGradient>
+                    <linearGradient id="tapeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#f8f2e6" stop-opacity="0.93"/>
+                      <stop offset="50%" stop-color="#eee3cd" stop-opacity="0.85"/>
+                      <stop offset="100%" stop-color="#d9c9a3" stop-opacity="0.92"/>
+                    </linearGradient>
+                    <clipPath id="tapeClip2">
+                      <path d="M27 50 L32 51 L25 54 L33 57 L24 60 L32 63 L25 66 L30 70 L46 69 L62 70 L78 69 L94 70 L110 69 L126 70 L142 69 L158 70 L170 70 L175 66 L168 63 L176 60 L169 57 L174 54 L170 50 L158 51 L142 50 L126 51 L110 50 L94 51 L78 50 L62 51 L46 50 Z"/>
+                    </clipPath>
+                    <filter id="tapeShadow2" x="-30%" y="-60%" width="160%" height="220%">
+                      <feDropShadow dx="0" dy="1.4" stdDeviation="1.1" flood-color="#3a1015" flood-opacity="0.3"/>
+                    </filter>
                   </defs>
                   <path d="M100 42 C 90 30, 78 28, 66 34 C 56 39, 46 41, 34 45 C 20 50, 12 56, 16 61 C 45 53, 75 50, 100 50 C 125 50, 155 53, 184 61 C 188 56, 180 50, 166 45 C 154 41, 144 39, 134 34 C 122 28, 110 30, 100 42 Z" fill="url(#lipTop2)"/>
                   <path d="M16 61 C 12 68, 20 77, 34 82 C 55 90, 78 93, 100 93 C 122 93, 145 90, 166 82 C 180 77, 188 68, 184 61 C 155 69, 125 73, 100 73 C 75 73, 45 69, 16 61 Z" fill="url(#lipBottom2)"/>
@@ -185,8 +215,16 @@
                   <ellipse cx="72" cy="36" rx="12" ry="4" fill="#fff" opacity="0.3" transform="rotate(-18 72 36)"/>
                   <ellipse cx="100" cy="80" rx="26" ry="9" fill="#fff" opacity="0.3"/>
                   <ellipse cx="60" cy="76" rx="8" ry="3" fill="#fff" opacity="0.2"/>
-                  <rect x="26" y="50" width="148" height="20" rx="2" fill="#f3ecdf" opacity="0.95" transform="rotate(-3 100 60)"/>
-                  <rect x="26" y="50" width="148" height="3" fill="#d8cfc0" opacity="0.6" transform="rotate(-3 100 60)"/>
+                  <g transform="rotate(-3 100 60)" filter="url(#tapeShadow2)">
+                    <path d="M27 50 L32 51 L25 54 L33 57 L24 60 L32 63 L25 66 L30 70 L46 69 L62 70 L78 69 L94 70 L110 69 L126 70 L142 69 L158 70 L170 70 L175 66 L168 63 L176 60 L169 57 L174 54 L170 50 L158 51 L142 50 L126 51 L110 50 L94 51 L78 50 L62 51 L46 50 Z" fill="url(#tapeGrad2)"/>
+                    <g clip-path="url(#tapeClip2)">
+                      <rect x="24" y="49" width="154" height="21" fill="none" stroke="#c7b78f" stroke-width="0.4" opacity="0.4"/>
+                      <rect x="58" y="47" width="13" height="26" fill="#fff" opacity="0.35" transform="rotate(18 65 60)"/>
+                      <rect x="110" y="47" width="9" height="26" fill="#fff" opacity="0.22" transform="rotate(18 115 60)"/>
+                      <line x1="26" y1="55.5" x2="176" y2="55.5" stroke="#fff" stroke-width="0.6" opacity="0.25"/>
+                      <line x1="26" y1="64.5" x2="176" y2="64.5" stroke="#5c4a30" stroke-width="0.5" opacity="0.12"/>
+                    </g>
+                  </g>
                 </svg>
               </div>
               <p class="book-caption">Erkaklar sizga ko'proq e'tibor, harakat<br>va sadoqat ko'rsatishi uchun<br>muloqot qilish uslubi</p>
