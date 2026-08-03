@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const message = [
     "Assalomu alaykum!",
     "",
-    "Men \"Erkaklar bilan gaplashish bo'yicha to'liq qo'llanma\" (PDF, 499 000 so'm) ni sotib olmoqchiman.",
+    "Men \"Erkaklar bilan gaplashish bo'yicha to'liq qo'llanma\" (PDF, 99 000 so'm) ni sotib olmoqchiman.",
     "Iltimos, to'lov usullari va qo'llanmani qanday olishim haqida ma'lumot bering.",
     "Rahmat!"
   ].join("\n");
